@@ -1,0 +1,69 @@
+/* contact.css */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+nav * {
+    display: inline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav li a {
+    color: gold;
+    text-decoration: none;
+}
+
+label[for="name"] {
+    color: blue; /* Change the color for the name label to blue */
+}
+
+label[for="email"] {
+    color: green; /* Change the color for the email label to green */
+}
+
+label[for="subject"] {
+    color: orange; /* Change the color for the subject label to orange */
+}
+
+label[for="message"] {
+    color: red; /* Change the color for the message label to red */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+input[type="submit"] {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

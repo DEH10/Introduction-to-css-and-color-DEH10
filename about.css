@@ -1,0 +1,57 @@
+/* about.css */
+
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: grey; 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+nav * {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav li a {
+    color: gold;
+    text-decoration: none;
+}
+
+h1 {
+    color: Red;
+}
+
+h3 {
+    color: White; 
+}
+.about-me {
+    color: Blue; 
+}
+
+.my-interest {
+    color: mediumseagreen; 
+}
