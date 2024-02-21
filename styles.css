@@ -1,74 +1,77 @@
 /* Body */
-body {
-    background-color: #daDED4; /* Tanly background color */
+.body-class {
+    background-color: #9DC88D; /* Light Green background color */
+    color: #164A41; /* Dark Green text color */
 }
 
 /* Header */
-header {
-    background-color: #3C403D; /* Brown Grey background */
-    color: #fff; /* Font color for better visibility */
+.header-class {
+    background-color: #4D774E; /* Medium Green background */
+    color: #FFFFFF; /* White text color */
+    padding: 20px; /* Add padding for better spacing */
 }
 
 /* Navigation */
-nav ul {
-    background-color: #39603D; /* Green Leaf background for navigation */
+.nav-class ul {
+    background-color: #164A41; /* Dark Green background for navigation */
     list-style-type: none; /* Remove default list style */
     padding: 0;
 }
 
-nav ul li {
+.nav-class ul li {
     display: inline;
 }
 
-nav ul li a {
-    color: #FFD700; /* Font color for navigation links */
+.nav-class ul li a {
+    color:  #FFD700; /* White font color for navigation links */
     text-decoration: none; /* Remove underline */
     padding: 10px 20px; /* Add padding to make clickable area larger */
 }
 
-nav ul li a:hover {
+.nav-class ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-nav ul li a.active {
+.nav-class ul li a.active {
     font-weight: bold; /* Bold font for active page link */
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    color: #3C403D; /* Brown Grey title color */
+.title-class {
+    color:  #FFD700; /* Natural Yellow title color */
 }
 
 /* Text */
-p, span, div {
-    color: #3C403D; /* Brown Grey text color */
+.text-class {
+    color: #164A41; /* Dark Green text color */
 }
 
 /* Images */
-img {
-    border: 2px solid #3C403D; /* Brown Grey border for images */
+.image-class {
+    border: 2px solid #164A41; /* Dark Green border for images */
 }
 
 /* Form and Buttons */
-input[type="text"],
-textarea,
-button {
-    background-color: #fff; /* White background for form fields and buttons */
-    color: #3C403D; /* Brown Grey text color for form fields and buttons */
+.form-class input[type="text"],
+.form-class textarea,
+.button-class {
+    background-color: #9DC88D; /* Light Green background for form fields and buttons */
+    color: #164A41; /* Dark Green text color for form fields and buttons */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-button:hover {
-    background-color: #A3BCB6; /* Olive background color on hover */
+.button-class:hover {
+    background-color: #4D774E; /* Medium Green background color on hover */
 }
 
 /* Footer */
-footer {
-    background-color: #3C403D; /* Brown Grey background for footer */
-    color: #fff; /* Font color for footer */
+.footer-class {
+    background-color: #164A41; /* Dark Green background for footer */
+    color: #FFFFFF; /* White text color for footer */
+    padding: 20px; /* Add padding for better spacing */
 }
 
 /* Accessibility */
