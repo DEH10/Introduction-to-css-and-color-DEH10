@@ -1,74 +1,73 @@
 /* Body */
-
-.body-class {
-    background-color: #f2f2f2; /* Subtle background color */
+body {
+    background-color: #daDED4; /* Tanly background color */
 }
 
 /* Header */
-.header-class {
-    background-color: #333; /* Contrasting background color */
+header {
+    background-color: #3C403D; /* Brown Grey background */
     color: #fff; /* Font color for better visibility */
 }
 
 /* Navigation */
-.nav-class ul {
-    background-color: #444; /* Different background color for navigation */
+nav ul {
+    background-color: #39603D; /* Green Leaf background for navigation */
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
 }
 
-.nav-class ul li a {
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     color: #fff; /* Font color for navigation links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding to make clickable area larger */
 }
 
-.nav-class ul li a:hover {
+nav ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-.nav-class ul li a.active {
+nav ul li a.active {
     font-weight: bold; /* Bold font for active page link */
 }
 
 /* Titles */
-.title-class {
-    color: #555; /* Distinct color for titles */
-}
-
-.section-title-class {
-    color: #777; /* Distinct color for section titles */
+h1, h2, h3, h4, h5, h6 {
+    color: #3C403D; /* Brown Grey title color */
 }
 
 /* Text */
-.text-class {
-    color: #333; /* Font color contrasting well with the background */
+p, span, div {
+    color: #3C403D; /* Brown Grey text color */
 }
 
 /* Images */
-.image-class {
-    border: 2px solid #666; /* Border color complementing the design */
+img {
+    border: 2px solid #3C403D; /* Brown Grey border for images */
 }
 
 /* Form and Buttons */
-.form-class input[type="text"],
-.form-class textarea {
-    background-color: #fff; /* Background color for form fields */
-    color: #333; /* Font color for form fields */
-}
-
-.button-class {
-    background-color: #333; /* Button background color */
-    color: #fff; /* Button font color */
+input[type="text"],
+textarea,
+button {
+    background-color: #fff; /* White background for form fields and buttons */
+    color: #3C403D; /* Brown Grey text color for form fields and buttons */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-.button-class:hover {
-    background-color: #555; /* Darker background color on hover */
+button:hover {
+    background-color: #A3BCB6; /* Olive background color on hover */
 }
 
 /* Footer */
-.footer-class {
-    background-color: #222; /* Distinct background color for footer */
+footer {
+    background-color: #3C403D; /* Brown Grey background for footer */
     color: #fff; /* Font color for footer */
 }
 
