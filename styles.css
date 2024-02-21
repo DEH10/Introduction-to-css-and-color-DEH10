@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Font color for navigation links */
+    color: #FFD700; /* Font color for navigation links */
     text-decoration: none; /* Remove underline */
     padding: 10px 20px; /* Add padding to make clickable area larger */
 }
